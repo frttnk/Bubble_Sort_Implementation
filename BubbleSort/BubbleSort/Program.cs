@@ -14,7 +14,7 @@ void SortBubble(int[] array)
 
         for(int i=0;i<array.Length-1;i++) // asc sort
         {
-            if (array[i] < array[i+1])
+            if (array[i] > array[i+1])
             {
                 int temp = array[i];
                 array[i] = array[i + 1];
